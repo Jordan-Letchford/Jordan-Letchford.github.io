@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Robotic Dog Paw Project | Jordan Letchford</title>
+		<title>Reverse Vending Machine for the "Container for Change" initiative | Jordan Letchford</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -24,8 +24,8 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<h1><a href="index.html">All-terrain "dog inspired" robotic leg with jamming capabilities</a></h1>
-							<p>Undergraduate Internship Project at CSIRO Data61</p>
+							<h1><a href="index.html">Australian made Reverse Vending Machine </a></h1>
+							<p>Work conducted at COREMATIC</p>
 						</div>
 
 					<!-- Nav -->
@@ -37,6 +37,7 @@
 								<li>
 									<a href="index.html#Projects">Projects</a>
 									<ul>
+										<!-- <li><a href="Reverse_Vending_Machine.html">Australian-Made Reverse Vending Machine using AI technology for the "Container for Change" initiative</a></li> -->
 										<li><a href="Paw.html">All-terrain "dog inspired" robotic leg with jamming capabilities</a></li>
 										<li><a href="Thesis.html">Human Interactive Robotic Incremental Sheet Forming Process</a></li>
 										<li><a href="Face.html">Face shields for health care workers</a></li>
@@ -65,20 +66,42 @@
 						<!-- Content -->
 							<div id="content">
 								<article class="box post">
-									<p>During my internship at CSIRO, I was tasked with creating a new robot foot that resembled a dog paw. In addition to this, the paw had to be able
-									to pick up objects through the power of jamming.</p>
 
-									<p>The paw design was based off a 3D scan of a dog skeleton, with extensive research and focus on the tendons, bone structure and joint layout. By utilising
-									the capabilities of the Stratasys Connex3 Polyjet 3D printer, one-shot printing was plausible. This machine allowed for parts to be printed in
-										multiple colours and materials, including varying shore grades for flexible parts. With this machine, sample joints and tendons were constructed to
-										behave like a dog joint and the entire design was modular to allow for easy testing, repairing and improving. This approach was vital for
-										completing this project in the time frame and allowed for rapid prototyping to occur. With the elasticity property of shoreA40 material,
-										the bones could conform to a terrain and return to their original position with consistency and ease.
+									that  heavy role in the construction, hardware implimentation and feature design utilised throughout this complex machinery. The first public installation of this machine can be seen in Noosa, QLD.</p>
+
+
+									<p>During my work conducted at COREMATIC, I was part of the team, as a support engineer, that was tasked with designing, delevoping and fabricating a reverse 
+										vending machine that could accept bottles for the 10 cents recycling initiative in Australia. This proved to be a very complex machine with countless hurdles 
+										and extensive problem solving. The machine had a specific criteia that had to be met to accomodate for the Australian standards in safety, public use and for 
+										the recyling scheme itself. I was heavily envolved in the mechanical, electrical and programming side of this project.
 									</p>
 
-									<p> The jamming aspect of the paw was achieved by replacing the metacarpal pad of a dog paw with a malleable membrane.
-										The shell was filled with granular material and the air was vacuumed out to achieve the ability of picking up an object, also known as
-										soft robotics. </p>
+									<p>I started with getting my hands on the tools and worked on the physical construction of the machine, this provided critical insight
+										into the 'workings' of the machine. Following this, I design mechanical parts (includes CAD modelling and technical drawings),
+										as required to solve issues as they arised. To ensure a high level of qualtity was obtained, I orchastrated the fabrication of the parts 
+										to avoid delays, unnessary mistakes and the fabricators were held accountable for the work they delivered. As the machine was refined, I 
+										handled the selection and implimentation of the stepper motors and weight system utlised in the machine's bottle checking system.
+									</p>
+										
+									<p>The electrcial portain of the machine is complex due to the extensive sensors, AI and bottle sorting capabilities. A single line on the machine was able to 
+										accept multiple bottle types and had to accuratly detect and sort them into isolated bins. I was involved in designing and wiring aspects of the electrical system
+										utilised in the prototype machine. When progressing into the updated refined version of the machine, I was in charge of re-desinging the electrical system. This entailed
+										the re-design of the electrical system, creating documentation, creating schematics and overseeing the production of the electrical panels/cabinets that are installed 
+										inside the machines.
+									</p>
+
+									<p>For programming, I assisted the lead engineer with class implimentations in python to handle my sections of the machine. This entailed
+										the software implimentation of the stepper motors and weight system which utlises ModBus and Serial. In addition, this project had a IOT 
+										dashboard for tracking maintenance and providing live data for analsys. I designed and created this IOT dashboard from thingsboard. 
+										The dashboard, draws data from SQL and the machine to showcase critical information, alarms and user details for maintenance and 
+										performance evaluation.
+									</p>
+										
+									<p>This project was an indepth undertaking by the team involved and taught me to fail fast and learn while embracing the ups and downs of a projects. 
+										The continous 2 steps foward and 1 step back, allowed me to practice my ability to adapt and roll with the changes while still upholding a high 
+										standard and focusing on the end goal.
+
+									</p>
 									<p>
 										<!--The next stage to this project was the jamming. Jamming is placed under soft robotics and is where a soft, malleable membrane is filled with granular
 										material, like coffee, and is placed over an object. This causes the grains to conform to the object and when the air inside the shell is vacuumed out, the
@@ -86,9 +109,13 @@
 										as it is capable of handling object of various shapes, sizes and robustness. A single tool that can solve multiple problems.-->
 									</p>
 
-									<p> The work performed in this project covered a vast range of engineering skills, theory, software and hardware and the results can be seen in this publication,
-										<a href="https://www-liebertpub-com.ezp01.library.qut.edu.au/doi/full/10.1089/soro.2020.0154"><i>One-Shot 3D-Printed Multimaterial Soft Robotic
-											Jamming Grippers</i></a>.</p>
+									<p> The prototype of this machine was covered by the news and has been showcased on social media,
+										<a href="https://wastemanagementreview.com.au/noosa-trials-new-containers-for-change-vending-machine/"><i>Noosa trials new Containers for Change vending machine - Waste Management Review 
+											</i></a>. 
+											<!-- and 
+											<a href="https://www.linkedin.com/posts/ecoboxtec_circulareconomy-commercialisation-innovation-activity-7069858726001709056-VTFO?utm_source=share&utm_medium=member_desktop"><i> Ecoboxtec LinkedIn
+											</i></a>. -->
+									</p>
 
 								</article>
 
@@ -103,11 +130,11 @@
 						<div class="row aln-center">
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
-									<a class="image featured"><img src="images/Paw/paw.jpg" alt="" /></a>
-									<p>A "one-shot" 3D print of 3D scanned dog toe on a Connex3.</p>
+									<a class="image featured"><img src="images/Reverse Vending Machine.jpg" alt="" /></a>
+									<p>First prototype of reverse vending machine.</p>
 								</section>
 							</div>
-							<div class="col-4 col-12-medium">
+							<!-- <div class="col-4 col-12-medium">
 								<section class="highlight">
 									<a class="image featured"><img src="images/Paw/tendons.png" alt="3D printed Tendons" /></a>
 									<p>Evolution of a tendon design to replicate the motion and elasticity of a real life tendon.</p>
@@ -134,7 +161,7 @@
 								<section class="highlight">
 
 								</section>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</section>
@@ -163,7 +190,7 @@
 							</section>
 						<div id="copyright">
 							<ul>
-								<li>&copy; Jordan Letchford, 2021.</li>
+								<li>&copy; Jordan Letchford, 2023.</li>
 							</ul>
 						</div>
 
