@@ -2,6 +2,8 @@ Escape Velocity by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
+Access HERE: https://jordan-letchford.github.io/
+
 
 A new responsive template featuring a flat (but not too flat) minimalistic design, spacious
 layout, and styling for all basic page elements. Its demo images* are courtesy of the supremely
